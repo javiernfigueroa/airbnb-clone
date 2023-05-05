@@ -7,12 +7,18 @@ body {
   font-family: 'Popping', sans-serif;
 }
 
-
-
 nav {
   height: 70px;
   background: #ffffff;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 nav img {
@@ -40,4 +46,29 @@ section {
 
 .hero--text {
   margin-top: 0;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+.card--star {
+  height: 14px;
+  margin-right: 2px;
+}
+
+.gray {
+
 }
